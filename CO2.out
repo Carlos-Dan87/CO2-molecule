@@ -1,0 +1,47 @@
+-------------------
+DFT GRID GENERATION
+-------------------
+
+General Integration Accuracy     IntAcc      ... 4.388
+Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
+Angular Grid (max. ang.)         AngularGrid ... 4 (Lebedev-302)
+Angular grid pruning method      GridPruning ... 4 (adaptive)
+Weight generation scheme         WeightScheme... Becke
+Basis function cutoff            BFCut       ... 1.0000e-11
+Integration weight cutoff        WCut        ... 1.0000e-14
+Angular grids for H and He will be reduced by one unit
+Partially contracted basis set               ... off
+Rotationally invariant grid construction     ... off
+
+Total number of grid points                  ...    18385
+Total number of batches                      ...      289
+Average number of points per batch           ...       63
+Average number of grid points per atom       ...     6128
+Time for grid setup =    0.748 sec
+
+--------------
+SCF ITERATIONS
+--------------
+ITER       Energy         Delta-E        Max-DP      RMS-DP      [F,P]     Damp
+               ***  Starting incremental Fock matrix formation  ***
+  0   -188.2785123420   0.000000000000 0.11636700  0.00713356  0.2144751 0.7000
+  1   -188.3418240336  -0.063311691586 0.03961970  0.00306061  0.0628183 0.7000
+                               ***Turning on DIIS***
+  2   -188.3534397496  -0.011615715953 0.04344655  0.00259831  0.0241956 0.0000
+  3   -188.3913841681  -0.037944418569 0.03205906  0.00213477  0.0362394 0.0000
+  4   -188.3916721979  -0.000288029738 0.02188437  0.00103578  0.0283737 0.0000
+  5   -188.3932664445  -0.001594246678 0.00649095  0.00030123  0.0098597 0.0000
+  6   -188.3934054399  -0.000138995378 0.00158996  0.00010567  0.0036003 0.0000
+                      *** Initiating the SOSCF procedure ***
+                           *** Shutting down DIIS ***
+                      *** Re-Reading the Fockian ***
+                      *** Removing any level shift ***
+ITER      Energy       Delta-E        Grad      Rot      Max-DP    RMS-DP
+  7   -188.39342563  -0.0000201868  0.000236  0.000236  0.000465  0.000028
+               *** Restarting incremental Fock matrix formation ***
+  8   -188.39342732  -0.0000016884  0.000190  0.000455  0.000544  0.000033
+  9   -188.39342671   0.0000006066  0.000404  0.000274  0.000393  0.000024
+ 10   -188.39342745  -0.0000007464  0.000010  0.000035  0.000042  0.000003
+ 11   -188.39342745   0.0000000053  0.000040  0.000029  0.000029  0.000002
+ 12   -188.39342746  -0.0000000058  0.000005  0.000005  0.000014  0.000001
+ 13   -188.39342746   0.0000000002  0.000005  0.000002  0.000007  0.000001
